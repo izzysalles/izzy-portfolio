@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    background-color: #DFDDFF;
+}
+
+.header-container {
+    max-width: 920px;
+    background: #efefef;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-left: 100px;
+    flex-direction: column;
+}
+
+.header-container h1 {
+    font-size: 40px;
+    color: #161B93;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+.header-container h2 {
+    font-size: 35px;
+    color: #161B93;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.linkedin:hover, .github:hover, .twitter:hover, .twitch:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.illustration-title img {
+    max-width: 420px;
+    margin-right: 100px;
+    padding: 35px 0px;
+}
